@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Email Input</title>
+</head>
+
+<body>
+  <header>
+    <h1>Email Input</h1>
+  </header>
+  <h2><pre>input type="text"</pre></h2>
+  <p>This is an example application that illustrates how to utilize some features in HTML 5 to simplify email input for mobile users.</p>
+  <p>Take a look at this first example, it's a plain, ordinary text input field:</p>
+  <label for="email1">Email Address:</label>
+  <input type="text" name="email1" id="email1">
+  <p>That's the way most web developers implement the email input field: without any special formatting instructions that tells the browser that an email address is being entered.</p>
+  <p>Sigh.</p>
+  <p>This approach is not a big deal for desktop browser users as the @ symbol used in ALL email addresses is easily accessible.</p>
+  <p>For Mobile users, on the other hand, the @ symbol is not usually exposed through the default soft keyboard found on most touch screen devices, so it takes extra work for mobile users to be able to type that character.</p>
+  <h2><pre>input type="email"</pre></h2>
+  <p>Because of mobile devices and touch screens, web developers should always (yes, I do mean allways) use the HTML 5 email input type as demonstrated by the following input field:</p>
+  <label for="email2">Email Address:</label>
+  <input type="email" name="email1" id="email1">
+  <p>As you can see, when using this input type, the email entry keyboard displays on mobile devices, simplifying input.</p>
+</body>
+</html>
